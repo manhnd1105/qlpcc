@@ -1,0 +1,48 @@
+D:\Projects\PCC\QLPCC\QLPCC\bin\Debug\QLPCC.exe.config
+D:\Projects\PCC\QLPCC\QLPCC\bin\Debug\QLPCC.exe
+D:\Projects\PCC\QLPCC\QLPCC\bin\Debug\QLPCC.pdb
+D:\Projects\PCC\QLPCC\QLPCC\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\Projects\PCC\QLPCC\QLPCC\bin\Debug\Microsoft.Office.Interop.Word.dll
+D:\Projects\PCC\QLPCC\QLPCC\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.csproj.ResolveComReference.cache
+D:\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.rptThongKe.rpt
+D:\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.frmGioiThieu.resources
+D:\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.frmCapNhatDanhMucDat.resources
+D:\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.frmBaoCao.resources
+D:\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.frmCapNhatDanhMucNha.resources
+D:\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.frmDangNhap.resources
+D:\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.frmDanhMucDat.resources
+D:\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.frmDanhMucHD.resources
+D:\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.frmDanhMucNha.resources
+D:\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.frmKiemTra.resources
+D:\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.frmMain.resources
+D:\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.frmLapHD.resources
+D:\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.frmPrintPreview.resources
+D:\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.Properties.Resources.resources
+D:\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.csproj.GenerateResource.Cache
+D:\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.exe
+D:\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.pdb
+D:\My Dropbox\Projects\PCC\QLPCC\QLPCC\bin\Debug\QLPCC.exe.config
+D:\My Dropbox\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.exe
+D:\My Dropbox\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.pdb
+D:\My Dropbox\Projects\PCC\QLPCC\QLPCC\bin\Debug\QLPCC.exe
+D:\My Dropbox\Projects\PCC\QLPCC\QLPCC\bin\Debug\QLPCC.pdb
+D:\My Dropbox\Projects\PCC\QLPCC\QLPCC\bin\Debug\Microsoft.Office.Interop.Excel.dll
+D:\My Dropbox\Projects\PCC\QLPCC\QLPCC\bin\Debug\Microsoft.Office.Interop.Word.dll
+D:\My Dropbox\Projects\PCC\QLPCC\QLPCC\obj\Debug\ResolveAssemblyReference.cache
+D:\My Dropbox\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.csproj.ResolveComReference.cache
+D:\My Dropbox\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.rptThongKe.rpt
+D:\My Dropbox\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.frmGioiThieu.resources
+D:\My Dropbox\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.frmCapNhatDanhMucDat.resources
+D:\My Dropbox\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.frmBaoCao.resources
+D:\My Dropbox\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.frmCapNhatDanhMucNha.resources
+D:\My Dropbox\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.frmDangNhap.resources
+D:\My Dropbox\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.frmDanhMucDat.resources
+D:\My Dropbox\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.frmDanhMucHD.resources
+D:\My Dropbox\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.frmDanhMucNha.resources
+D:\My Dropbox\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.frmKiemTra.resources
+D:\My Dropbox\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.frmMain.resources
+D:\My Dropbox\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.frmLapHD.resources
+D:\My Dropbox\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.frmPrintPreview.resources
+D:\My Dropbox\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.Properties.Resources.resources
+D:\My Dropbox\Projects\PCC\QLPCC\QLPCC\obj\Debug\QLPCC.csproj.GenerateResource.Cache

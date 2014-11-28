@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="QL_ANH">
+</Property><Property Name="Solution File" Value="D:\Projects\QLA\QL_ANH\QL_ANH.sln">
+</Property><Property Name="Date" Value="Wednesday, April 28, 2010">
+</Property><Property Name="Time" Value="19:39 PM">
+</Property></Properties><Event ErrorLevel="0" Project="QLA_NVBH" Source="QLA_NVBH\QLA_NVBH.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="QLA_NVBH" Source="QLA_NVBH\QLA_NVBH.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="QLA_NVKT" Source="QLA_NVKT\QLA_NVKT.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="QLA_NVKT" Source="QLA_NVKT\QLA_NVKT.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="QLA_NVKD" Source="QLA_NVKD\QLA_NVKD.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="QLA_NVKD" Source="QLA_NVKD\QLA_NVKD.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="QLA_CCH" Source="QLA_CCH\QLA_CCH.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="QLA_CCH" Source="QLA_CCH\QLA_CCH.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="QL_ANH.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="QL_ANH.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="QLA_NVBH" Source="QLA_NVBH\QLA_NVBH.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="QLA_NVKT" Source="QLA_NVKT\QLA_NVKT.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="QLA_NVKD" Source="QLA_NVKD\QLA_NVKD.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="QLA_CCH" Source="QLA_CCH\QLA_CCH.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

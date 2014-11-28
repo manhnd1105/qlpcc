@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F878E364-3BD9-4098-A2A5-5D17AC3B5A7B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QLPCC</RootNamespace>
+    <AssemblyName>QLPCC</AssemblyName>
+    <ApplicationIcon>QLPCC.ico</ApplicationIcon>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>QLPCC.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Debug\QLPCC.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Release\QLPCC.exe.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>true</CodeAnalysisIgnoreBuiltInRules>
+    <CodeAnalysisFailOnMissingRules>false</CodeAnalysisFailOnMissingRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="adodb, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmGioiThieu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGioiThieu.Designer.cs">
+      <DependentUpon>frmGioiThieu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCapNhatDanhMucDat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCapNhatDanhMucDat.Designer.cs">
+      <DependentUpon>frmCapNhatDanhMucDat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DatabaseAccess.cs" />
+    <Compile Include="frmCapNhatDanhMucNha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCapNhatDanhMucNha.Designer.cs">
+      <DependentUpon>frmCapNhatDanhMucNha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDangNhap.Designer.cs">
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDanhMucDat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDanhMucDat.Designer.cs">
+      <DependentUpon>frmDanhMucDat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDanhMucNha.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDanhMucNha.Designer.cs">
+      <DependentUpon>frmDanhMucNha.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLapHD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLapHD.Designer.cs">
+      <DependentUpon>frmLapHD.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmThemDat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmThemDat.Designer.cs">
+      <DependentUpon>frmThemDat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmGioiThieu.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmGioiThieu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCapNhatDanhMucDat.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCapNhatDanhMucDat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCapNhatDanhMucNha.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmCapNhatDanhMucNha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDangNhap.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDanhMucDat.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDanhMucDat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDanhMucNha.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDanhMucNha.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLapHD.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmLapHD.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmThemDat.resx">
+      <DependentUpon>frmThemDat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Winrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BaoCao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BCUT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BCUT_Loai.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BKNuocNgoai.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BKNuocNgoai1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BKTrongNuoc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blockdevice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BPGhiSo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BPQT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BuuKienNN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BuuKienTN.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BuuphamNN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChauLuc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChonNgayLV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chuc_nang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CongNo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ControlPanel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CTN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CTQT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DanhMuc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DanhMucBuuCuc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DanhMucVung.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\db_comit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DoiKiem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DoiMatKhau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DoiMK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DoiNguoiDung.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DoiSoat.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dongchuyenthu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FormNhap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gohome.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\he_thong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HeThong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kdmconfig.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kenolaba.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KetNoiCSDL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KetNoiDL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kexi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Khachang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KhaiThacBPBK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kpresenter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kuser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lapbaocao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lassists.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Login Manager.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maintenance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NgayLamViec.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NhomNguoiDung.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NVDacBiet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PhatHanh.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PhucHoiDL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PhucHoiDuLieu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QLKH_CN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QLQuaHanTra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QLSuVu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QLThatLac.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QTNguoiDung.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QuaDiaCau.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Quanlychuatra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quanlyden.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaoLuuDuLieu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ThamsoHT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ThietLapTSHT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ThongKe.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TienichBC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TimKiem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TruyenLai.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vcalendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Resources\Vung.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="QLPCC.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
